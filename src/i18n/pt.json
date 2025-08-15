@@ -25,7 +25,7 @@
     "text_input": "Texto",
     "audio_input": "Áudio",
     "soap_documentation": "Documentação SOAP",
-    "app_description": "Ferramenta premium de documentação clínica para médicos.",
+    "app_description": "Ferramenta de documentação clínica para médicos.",
     "powered_by_openai": "Desenvolvido com IA de ponta",
     "disclaimer": "⚠️ Esta aplicação é uma ferramenta de apoio à documentação clínica, destinada a médicos e profissionais de saúde. Não substitui o julgamento clínico, diagnóstico ou conduta médica. Sempre revise as informações geradas e utilize com responsabilidade.",
     "assistant_description": "Assistente inteligente para documentação SOAP clínica.",
