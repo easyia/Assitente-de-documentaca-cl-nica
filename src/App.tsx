@@ -9,16 +9,26 @@ import { I18nProvider, useI18n } from './i18n';
 
 const queryClient = new QueryClient();
 
-function App() {
+function LanguageSelector() {
   const { language, setLanguage } = useI18n();
   return (
+    <div className="fixed top-4 right-4 z-50">
+      <select
+        value={language}
+        onChange={e => setLanguage(e.target.value)}
+        className="rounded-md border border-medical-blue bg-white px-3 py-1 text-medical-blue font-medium shadow focus:outline-none focus:ring-2 focus:ring-medical-blue/50 transition"
+      >
+        <option value="pt">🇧🇷 Português</option>
+        <option value="es">🇪🇸 Español</option>
+      </select>
+    </div>
+  );
+}
+
+function App() {
+  return (
     <I18nProvider>
-      <div style={{ position: 'fixed', top: 16, right: 16, zIndex: 100 }}>
-        <select value={language} onChange={e => setLanguage(e.target.value)}>
-          <option value="pt">Português</option>
-          <option value="es">Español</option>
-        </select>
-      </div>
+      <LanguageSelector />
       <QueryClientProvider client={queryClient}>
         <TooltipProvider>
           <Toaster />

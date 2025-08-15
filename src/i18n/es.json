@@ -20,11 +20,16 @@
     "text_transcribed": "Texto transcrito:",
     "metrics_today": "Hoy",
     "metrics_week": "Semana",
-    "metrics_total": "Total"
+    "metrics_total": "Total",
+    "clinical_data_input": "Datos Clínicos",
+    "text_input": "Texto",
+    "audio_input": "Audio",
+    "soap_documentation": "Documentación SOAP"
   },
   "soap": {
     "practical": "Práctico",
-    "educational": "Educativo"
+    "educational": "Educativo",
+    "recordAudioOrEnterClinicalText": "Graba un audio o ingresa el texto clínico para generar la documentación SOAP."
   },
   "onboarding": {
     "title": "¡Bienvenido a DocSync!",
