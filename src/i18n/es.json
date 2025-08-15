@@ -25,5 +25,13 @@
   "soap": {
     "practical": "Práctico",
     "educational": "Educativo"
+  },
+  "onboarding": {
+    "title": "¡Bienvenido a DocSync!",
+    "intro": "Convierte audio o texto clínico en documentación SOAP estructurada con inteligencia artificial. Disfruta de una experiencia premium de calidad, pensada para estudiantes y profesionales exigentes.",
+    "step1": "Elige el idioma e ingresa el texto clínico o graba el audio de la consulta.",
+    "step2": "Haz clic en 'Generar SOAP' para recibir documentación práctica y educativa al instante.",
+    "step3": "Aprovecha consejos clínicos, razonamiento detallado y documentación lista para usar o estudiar.",
+    "premium": "Calidad premium: IA de última generación, privacidad garantizada e interfaz intuitiva. ¡Usa con responsabilidad y revisa siempre la información clínica!"
   }
 }

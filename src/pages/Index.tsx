@@ -15,6 +15,22 @@ import { MetricsDisplay } from '@/components/MetricsDisplay';
 import { SOAPGenerator, type SOAPResult } from '@/components/SOAPGenerator';
 import { DataManager, type Metrics } from '@/components/DataManager';
 
+const Onboarding = () => {
+  const { t } = useI18n();
+  return (
+    <div className="mb-8 p-6 rounded-lg bg-gradient-to-r from-medical-blue-light to-educational-purple-light shadow-card border border-medical-blue">
+      <h2 className="text-2xl font-bold mb-2 text-medical-blue">{t('onboarding.title')}</h2>
+      <p className="text-base mb-2">{t('onboarding.intro')}</p>
+      <ul className="list-disc pl-6 text-sm mb-2">
+        <li>{t('onboarding.step1')}</li>
+        <li>{t('onboarding.step2')}</li>
+        <li>{t('onboarding.step3')}</li>
+      </ul>
+      <p className="text-sm text-educational-purple font-semibold">{t('onboarding.premium')}</p>
+    </div>
+  );
+};
+
 const Index = () => {
   const { t, language } = useI18n();
   const [clinicalText, setClinicalText] = useState('');
@@ -80,8 +96,9 @@ const Index = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-bg">
-      <div className="container mx-auto px-4 py-8">
+    <div className="min-h-screen bg-gradient-bg flex items-center justify-center p-4">
+      <div className="w-full max-w-6xl mx-auto">
+        <Onboarding />
         {/* Header */}
         <header className="flex flex-col md:flex-row justify-between items-start md:items-center mb-8 gap-4">
           <div className="flex items-center space-x-3">
