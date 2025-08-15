@@ -1,0 +1,29 @@
+{
+  "seo": {
+    "title": "DocSync MVP - Asistente SOAP para Estudiantes de Medicina",
+    "description": "Convierte audio/texto de consultas médicas en documentación SOAP estructurada con IA. Versiones práctica y educativa para estudiantes de medicina."
+  },
+  "interface": {
+    "app_name": "DocSync MVP",
+    "subtitle": "Asistente SOAP para Estudiantes de Medicina",
+    "instruction": "Convierte audio/texto de consultas en documentación SOAP estructurada",
+    "generate_button": "Generar SOAP",
+    "generate_from_transcription": "Generar SOAP de la Transcripción",
+    "transcription_success": "Audio convertido a texto con éxito.",
+    "transcription_error": "No se pudo transcribir el audio.",
+    "soap_success": "¡SOAP generado con éxito!",
+    "soap_ready": "La documentación práctica y educativa está lista.",
+    "soap_error": "Error al generar SOAP",
+    "footer": "Desarrollado para ayudar en la educación médica. Siempre confirme la información con supervisión médica.",
+    "powered_by": "Desarrollado por OpenAI",
+    "new_document": "Nuevo Documento",
+    "text_transcribed": "Texto transcrito:",
+    "metrics_today": "Hoy",
+    "metrics_week": "Semana",
+    "metrics_total": "Total"
+  },
+  "soap": {
+    "practical": "Práctico",
+    "educational": "Educativo"
+  }
+}
